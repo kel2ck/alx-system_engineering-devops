@@ -1,6 +1,6 @@
-##SIMPLE WEB STACK
+## SIMPLE WEB STACK
 
-###EXPLANATION:
+### EXPLANATION:
 
 **Server:**  Machine without mouse, keyboard, screen that provides services to clients. Only network can be access.
 **Web Server (Nginx):** delivers webpage content to browser.
@@ -35,6 +35,9 @@ Web servers and HTTP (a primer) web browsers communication with web servers usin
 
 **SPOF:**
 
-A single point of failure (SPOF) is a potential risk posed by a flaw in the design, implementation or configuration of a circuit or system. SPOF refers to one fault or malfunction that can cause an entire system to stop operating.
-Downtime when maintenance needed (like deploying new code web server needs to be restarted): During maintenance or update the server needs to be restarted, causing downtime and disrupting access to the website
+A single point of failure (SPOF) is a potential risk posed by a flaw in the design, implementation or configuration of a circuit or system. 
+SPOF refers to one fault or malfunction that can cause an entire system to stop operating.
+
+Downtime when maintenance needed (like deploying new code web server needs to be restarted): During maintenance or update the server needs to be restarted, causing downtime and disrupting access to the website.
+
 Cannot scale if too much incoming traffic: if the website receives too much traffic, the infrastructure will not be able to handle it, leading to crashes or a slow loading time. since this infrastructure only has a single server the scaling options are limited.
