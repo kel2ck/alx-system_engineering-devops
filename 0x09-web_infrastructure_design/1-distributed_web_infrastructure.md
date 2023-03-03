@@ -10,6 +10,7 @@ The load balancer is configured to enable an active-passive setup, in which only
 
 **Difference between active-active and active-passive load balancer:**
 In an active-active configuration, the load balancer spread out the workload’s traffic among multiple nodes whereas, in active-passive configuration, the server load balancer recognizes a failed node and redirects traffic to the next available node.
+
 **How a database Primary-Replica(master-slave) cluster works:**
 
 A master-slave database cluster is a setup in which one database node acts as the primary or master node, while one or more database nodes acts as replica or slave nodes. The master node is responsible for accepting read and write requests from the primary node and serve read-only requests from the application.
