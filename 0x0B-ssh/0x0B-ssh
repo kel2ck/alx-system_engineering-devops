@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ssh ubuntu@52.91.157.8
+ssh ubuntu@100.26.246.229
 mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
 chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
 echo ssh-rsa
